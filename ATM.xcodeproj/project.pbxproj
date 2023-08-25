@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4AD25428DFF9BD001EDF94 /* ATMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AD25328DFF9BD001EDF94 /* ATMApp.swift */; };
+		EC4AD25628DFF9BD001EDF94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AD25528DFF9BD001EDF94 /* ContentView.swift */; };
+		EC4AD25828DFF9BF001EDF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4AD25728DFF9BF001EDF94 /* Assets.xcassets */; };
+		EC4AD25B28DFF9BF001EDF94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4AD25A28DFF9BF001EDF94 /* Preview Assets.xcassets */; };
+		EC4AD26628DFF9BF001EDF94 /* ATMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AD26528DFF9BF001EDF94 /* ATMTests.swift */; };
+		EC4AD27028DFF9BF001EDF94 /* ATMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AD26F28DFF9BF001EDF94 /* ATMUITests.swift */; };
+		EC4AD27228DFF9BF001EDF94 /* ATMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AD27128DFF9BF001EDF94 /* ATMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4AD26228DFF9BF001EDF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4AD24828DFF9BD001EDF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4AD24F28DFF9BD001EDF94;
+			remoteInfo = ATM;
+		};
+		EC4AD26C28DFF9BF001EDF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4AD24828DFF9BD001EDF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4AD24F28DFF9BD001EDF94;
+			remoteInfo = ATM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4AD25028DFF9BD001EDF94 /* ATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AD25328DFF9BD001EDF94 /* ATMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMApp.swift; sourceTree = "<group>"; };
+		EC4AD25528DFF9BD001EDF94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC4AD25728DFF9BF001EDF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4AD25A28DFF9BF001EDF94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC4AD25C28DFF9BF001EDF94 /* ATM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATM.entitlements; sourceTree = "<group>"; };
+		EC4AD26128DFF9BF001EDF94 /* ATMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AD26528DFF9BF001EDF94 /* ATMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMTests.swift; sourceTree = "<group>"; };
+		EC4AD26B28DFF9BF001EDF94 /* ATMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AD26F28DFF9BF001EDF94 /* ATMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMUITests.swift; sourceTree = "<group>"; };
+		EC4AD27128DFF9BF001EDF94 /* ATMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4AD24D28DFF9BD001EDF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD25E28DFF9BF001EDF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD26828DFF9BF001EDF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4AD24728DFF9BD001EDF94 = {
+			isa = PBXGroup;
+			children = (
+				EC4AD25228DFF9BD001EDF94 /* ATM */,
+				EC4AD26428DFF9BF001EDF94 /* ATMTests */,
+				EC4AD26E28DFF9BF001EDF94 /* ATMUITests */,
+				EC4AD25128DFF9BD001EDF94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4AD25128DFF9BD001EDF94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AD25028DFF9BD001EDF94 /* ATM.app */,
+				EC4AD26128DFF9BF001EDF94 /* ATMTests.xctest */,
+				EC4AD26B28DFF9BF001EDF94 /* ATMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4AD25228DFF9BD001EDF94 /* ATM */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AD25328DFF9BD001EDF94 /* ATMApp.swift */,
+				EC4AD25528DFF9BD001EDF94 /* ContentView.swift */,
+				EC4AD25728DFF9BF001EDF94 /* Assets.xcassets */,
+				EC4AD25C28DFF9BF001EDF94 /* ATM.entitlements */,
+				EC4AD25928DFF9BF001EDF94 /* Preview Content */,
+			);
+			path = ATM;
+			sourceTree = "<group>";
+		};
+		EC4AD25928DFF9BF001EDF94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AD25A28DFF9BF001EDF94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC4AD26428DFF9BF001EDF94 /* ATMTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AD26528DFF9BF001EDF94 /* ATMTests.swift */,
+			);
+			path = ATMTests;
+			sourceTree = "<group>";
+		};
+		EC4AD26E28DFF9BF001EDF94 /* ATMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AD26F28DFF9BF001EDF94 /* ATMUITests.swift */,
+				EC4AD27128DFF9BF001EDF94 /* ATMUITestsLaunchTests.swift */,
+			);
+			path = ATMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4AD24F28DFF9BD001EDF94 /* ATM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AD27528DFF9BF001EDF94 /* Build configuration list for PBXNativeTarget "ATM" */;
+			buildPhases = (
+				EC4AD24C28DFF9BD001EDF94 /* Sources */,
+				EC4AD24D28DFF9BD001EDF94 /* Frameworks */,
+				EC4AD24E28DFF9BD001EDF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATM;
+			productName = ATM;
+			productReference = EC4AD25028DFF9BD001EDF94 /* ATM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4AD26028DFF9BF001EDF94 /* ATMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AD27828DFF9BF001EDF94 /* Build configuration list for PBXNativeTarget "ATMTests" */;
+			buildPhases = (
+				EC4AD25D28DFF9BF001EDF94 /* Sources */,
+				EC4AD25E28DFF9BF001EDF94 /* Frameworks */,
+				EC4AD25F28DFF9BF001EDF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4AD26328DFF9BF001EDF94 /* PBXTargetDependency */,
+			);
+			name = ATMTests;
+			productName = ATMTests;
+			productReference = EC4AD26128DFF9BF001EDF94 /* ATMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4AD26A28DFF9BF001EDF94 /* ATMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AD27B28DFF9BF001EDF94 /* Build configuration list for PBXNativeTarget "ATMUITests" */;
+			buildPhases = (
+				EC4AD26728DFF9BF001EDF94 /* Sources */,
+				EC4AD26828DFF9BF001EDF94 /* Frameworks */,
+				EC4AD26928DFF9BF001EDF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4AD26D28DFF9BF001EDF94 /* PBXTargetDependency */,
+			);
+			name = ATMUITests;
+			productName = ATMUITests;
+			productReference = EC4AD26B28DFF9BF001EDF94 /* ATMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4AD24828DFF9BD001EDF94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EC4AD24F28DFF9BD001EDF94 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EC4AD26028DFF9BF001EDF94 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EC4AD24F28DFF9BD001EDF94;
+					};
+					EC4AD26A28DFF9BF001EDF94 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EC4AD24F28DFF9BD001EDF94;
+					};
+				};
+			};
+			buildConfigurationList = EC4AD24B28DFF9BD001EDF94 /* Build configuration list for PBXProject "ATM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4AD24728DFF9BD001EDF94;
+			productRefGroup = EC4AD25128DFF9BD001EDF94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4AD24F28DFF9BD001EDF94 /* ATM */,
+				EC4AD26028DFF9BF001EDF94 /* ATMTests */,
+				EC4AD26A28DFF9BF001EDF94 /* ATMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4AD24E28DFF9BD001EDF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AD25B28DFF9BF001EDF94 /* Preview Assets.xcassets in Resources */,
+				EC4AD25828DFF9BF001EDF94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD25F28DFF9BF001EDF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD26928DFF9BF001EDF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4AD24C28DFF9BD001EDF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AD25628DFF9BD001EDF94 /* ContentView.swift in Sources */,
+				EC4AD25428DFF9BD001EDF94 /* ATMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD25D28DFF9BF001EDF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AD26628DFF9BF001EDF94 /* ATMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD26728DFF9BF001EDF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AD27028DFF9BF001EDF94 /* ATMUITests.swift in Sources */,
+				EC4AD27228DFF9BF001EDF94 /* ATMUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4AD26328DFF9BF001EDF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4AD24F28DFF9BD001EDF94 /* ATM */;
+			targetProxy = EC4AD26228DFF9BF001EDF94 /* PBXContainerItemProxy */;
+		};
+		EC4AD26D28DFF9BF001EDF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4AD24F28DFF9BD001EDF94 /* ATM */;
+			targetProxy = EC4AD26C28DFF9BF001EDF94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC4AD27328DFF9BF001EDF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC4AD27428DFF9BF001EDF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EC4AD27628DFF9BF001EDF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ATM/ATM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ATM/Preview Content\"";
+				DEVELOPMENT_TEAM = U78QR3J4RB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keonabalaoro.ATM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC4AD27728DFF9BF001EDF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ATM/ATM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ATM/Preview Content\"";
+				DEVELOPMENT_TEAM = U78QR3J4RB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keonabalaoro.ATM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EC4AD27928DFF9BF001EDF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U78QR3J4RB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keonabalaoro.ATMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATM.app/Contents/MacOS/ATM";
+			};
+			name = Debug;
+		};
+		EC4AD27A28DFF9BF001EDF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U78QR3J4RB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keonabalaoro.ATMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATM.app/Contents/MacOS/ATM";
+			};
+			name = Release;
+		};
+		EC4AD27C28DFF9BF001EDF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U78QR3J4RB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keonabalaoro.ATMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ATM;
+			};
+			name = Debug;
+		};
+		EC4AD27D28DFF9BF001EDF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U78QR3J4RB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keonabalaoro.ATMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ATM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4AD24B28DFF9BD001EDF94 /* Build configuration list for PBXProject "ATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AD27328DFF9BF001EDF94 /* Debug */,
+				EC4AD27428DFF9BF001EDF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4AD27528DFF9BF001EDF94 /* Build configuration list for PBXNativeTarget "ATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AD27628DFF9BF001EDF94 /* Debug */,
+				EC4AD27728DFF9BF001EDF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4AD27828DFF9BF001EDF94 /* Build configuration list for PBXNativeTarget "ATMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AD27928DFF9BF001EDF94 /* Debug */,
+				EC4AD27A28DFF9BF001EDF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4AD27B28DFF9BF001EDF94 /* Build configuration list for PBXNativeTarget "ATMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AD27C28DFF9BF001EDF94 /* Debug */,
+				EC4AD27D28DFF9BF001EDF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4AD24828DFF9BD001EDF94 /* Project object */;
+}
